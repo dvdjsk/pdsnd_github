@@ -205,10 +205,10 @@ def display_data(df):
             r += 5
         elif rows_to_display > 0 and rows_left <= 5:
             print(df[r:r+rows_to_display])
-            print("No more data to display.")
+            print("End of dataset reached. No more data to display.")
             break
         else:
-            print("No more data to display.")
+            print("End of dataset reached. No more data to display.")
             break
         
         next_rows = input('\nWould you like to see the next 5 rows? Enter yes or no.\n')
