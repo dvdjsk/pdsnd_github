@@ -21,5 +21,5 @@ To execute the script, you need to run:
 * bikeshare.py
 
 ### Credits
-This project was inspired by udacity.
+This project was inspired by a udacity course.
 
